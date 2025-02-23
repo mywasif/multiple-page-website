@@ -8,6 +8,8 @@ nav{
     background-color: #1a1244;
     padding: 10px 100px;
     border-bottom: 4px solid #401e63;
+    position: sticky;
+    top: 0;
 }
 nav ul{
     display: flex;
@@ -36,7 +38,7 @@ nav div{
 
 
 /* hero area */
-.hero-area{
+header{
     background-image: url("images/website\ banner.jpg");
     padding: 200px 0;
     background-repeat: no-repeat;
