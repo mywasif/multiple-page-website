@@ -3,7 +3,8 @@
     padding: 0;
 }
 nav{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
     background-color: #1a1244;
     padding: 10px 100px;

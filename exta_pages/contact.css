@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* navigation */
+nav{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    background-color: #1a1244;
+    padding: 10px 100px;
+    border-bottom: 4px solid #401e63;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin: 10px 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    background-color: black;
+    color: red;
+    border-radius: 5px;
+}
+nav div{
+    color: white;
+    font-size: 20px;
+}
+
+main{
+    background-color: #2D236A;
+}
+
+/* form section */
+.main-section{
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+}
+form{
+    width: 800px;
+    padding: 40px 0;
+    background-color: palevioletred;
+}
+form h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.name-email-parent input{
+    display: block;
+    margin: 20px auto;
+    width: 400px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-size: 17px;
+}
+form textarea{
+    display: block;
+    margin: 30px auto;
+    width: 400px;
+    height: 150px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 17px;
+}
+.button{
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    padding: 10px 20px;
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: linear-gradient(to left, blue, blueviolet, aqua);
+    color: white;
+}
+
+
+/* footer */
+footer{
+    background-color: #2D236A;
+}
+.footer-parent{
+    width: 1100px;
+    margin: auto;
+}
+#previous-next-parent{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+#previous-next-parent h3 a{
+    background-color: #04aa6d;
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+#previous-next-parent h3 a:hover{
+    background-color: #028354;
+}
+#previous-next-parent a{
+    text-decoration: none;
+    color: white;
+}
+#previous-next-parent div a{
+    margin: 0 10px;
+    background-color: antiquewhite;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #80808069;
+    transition: 0.5s;
+}
+#previous-next-parent div a:hover{
+    background-color: #04aa6d;
+    color: white;
+}
